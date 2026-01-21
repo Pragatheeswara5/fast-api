@@ -13,7 +13,7 @@ class TodoUpdate(BaseModel):
     completed:Optional[bool]
     
 class TodoResponse(BaseModel):
-    id:PyObjectId=Field(alias="_id")
+    # id:PyObjectId=Field(alias="_id")
     title:str
     description:str | None
     completed:bool
