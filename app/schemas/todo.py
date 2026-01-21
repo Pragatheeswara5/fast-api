@@ -1,7 +1,6 @@
 from pydantic import BaseModel, Field
 from typing import Optional
 from bson import ObjectId
-from app.models.object_id import PyObjectId
 
 class TodoCreate(BaseModel):
     title:str
